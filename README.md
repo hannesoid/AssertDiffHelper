@@ -1,9 +1,11 @@
 # AssertDiffHelper
 
 ## What this does after following installation instructions
+
 Click on XCTAssertEqual test failures, select the text, command-click and select the service 'Diff in Kaleidoscope' which splits the string and compares it in Kaleidoscope.
 
-## Aleternatives
+## Alternatives
+
 [krzysztofzablocki/Difference](https://github.com/krzysztofzablocki/Difference)
 
 ## Installation
@@ -11,6 +13,7 @@ Click on XCTAssertEqual test failures, select the text, command-click and select
 ### Install [Kaleidoscope.app](https://www.kaleidoscopeapp.com) and its command line tools `ksdiff`
 
 ### Then download/clone and compile this helper
+
 ```
 $ swift build -c release -Xswiftc -static-stdlib
 $ cp .build/release/AssertDiffHelper /usr/local/bin/assertdiffhelper
